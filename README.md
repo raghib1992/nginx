@@ -1,21 +1,17 @@
-### Process to generate SSL certificatesudo apt install letsencrypt
-# UBUNTU
+# Nginx - Beginner to Advanced
 
-## Step 1 – Installing the «Let’s Encrypt» package
-sudo apt install letsencrypt
-sudo systemctl status certbot.timer
+This Git repository contains all the commands and code files used throughout the Nginx - Beginner to Advanced video course by Zeal Vora
 
-## Step 2 – Standalone server for getting the «Let’s Encrypt» SSL certificate
+https://www.udemy.com/course/nginx-beginner-to-advanced/?referralCode=3A7B5928F3CCAEED7ED9
 
-sudo certbot certonly --standalone --agree-tos --preferred-challenges http -d domain-name.com
+We also have a new Discord community for any support related discussion as well as to connect to other students doing the same course. Feel free to join the community.
 
-## Step 3 – Automatic installation of the SSL certificate on nginx and Apache web servers
-apt install python3-certbot-nginx
-apt install python3-certbot-apache
+```sh
+https://kplabs.in/chat
+```
 
-# Run this command for nginx: or  this for Apache:
-sudo certbot --nginx --agree-tos --preferred-challenges http -d domain-name.com
-sudo certbot --apache --agree-tos --preferred-challenges http -d domain-name.com
+Welcome to the community again, and we look forward to seeing you certified! :)
 
-## Step 4 – «Let’s Encrypt» Wildcard SSL certificate
-sudo certbot certonly --manual --agree-tos --preferred-challenges dns -d domain-name.com -d *.domain-name.com
+<p align="center">
+  <img width="460" height="300" src="https://i.ibb.co/b3jFkkk/discord-terraform.png">
+</p>
